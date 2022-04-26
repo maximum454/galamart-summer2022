@@ -1,0 +1,21 @@
+.summer2022-all{
+  &__header{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__link{
+    display: block;
+    width: fit-content;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E72E84;
+    opacity: 0.5;
+    border-radius: 4px;
+    padding: 9px 20px;
+  }
+}

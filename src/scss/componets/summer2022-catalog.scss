@@ -1,7 +1,6 @@
 .summer2022-catalog{
   position: relative;
   z-index: 10;
-  padding-bottom: 40px;
   margin-bottom: 51px;
   overflow: hidden;
   &.revert{
@@ -44,6 +43,7 @@
     position: relative;
     overflow: hidden;
     padding-bottom: 60px;
+
   }
   &__link{
     display: block;
@@ -72,6 +72,9 @@
     span{
       border-bottom: 3px solid #E72E84;
     }
+  }
+  .swiper{
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   }
   .swiper-button-next,
   .swiper-button-prev{

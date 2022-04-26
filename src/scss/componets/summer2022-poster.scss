@@ -1,3 +1,15 @@
 .summer2022-poster{
-
+  margin-bottom: 112px;
+  overflow: hidden;
+  .swiper-pagination{
+    bottom: 15px;
+  }
+  .swiper-pagination-bullet{
+    background-color: #FFDDC0;
+    width: 12px;
+    height: 12px;
+    &-active{
+      background-color: #FD7400;
+    }
+  }
 }

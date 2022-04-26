@@ -5,7 +5,6 @@
 }
 
 body {
-	background-color: #E5E5E5;
 	&.lock {
 		overflow: hidden;
 	}
@@ -122,5 +121,6 @@ p {
 @import "componets/summer2022-header";
 @import "componets/summer2022-catalog";
 @import "componets/summer2022-poster";
+@import "componets/summer2022-all";
 
 
