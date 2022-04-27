@@ -1,0 +1,40 @@
+.summer2022-card{
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  &__img{
+    flex-shrink: 0;
+  }
+  &__content{
+    max-width: 235px;
+    padding: 20px 0;
+  }
+  &__tag{
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+  }
+  &__name{
+    display: block;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: #333;
+  }
+  .catalog-card__price{
+    margin-bottom: 22px;
+  }
+  .catalog-card__main-tag{
+    position: relative;
+    top: auto;
+    margin-right: 10px;
+  }
+  .product-tags:after{
+    display: none;
+  }
+  @include r(767){
+      display: block;
+  }
+}

@@ -37,3 +37,12 @@ const swiperSummer2022Poster = new Swiper('.swiper-summer2022-poster', {
     },
 });
 
+const swiperSummer2022Main = new Swiper('.swiper-summer2022-main', {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    navigation: {
+        nextEl: '.swiper-summer-next',
+        prevEl: '.swiper-summer-prev',
+    },
+});
+

@@ -1,9 +1,14 @@
 .summer2022-all{
+  margin-bottom: 60px;
   &__header{
     margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 40px;
   }
   &__link{
     display: block;
@@ -17,5 +22,17 @@
     opacity: 0.5;
     border-radius: 4px;
     padding: 9px 20px;
+  }
+  @include r(767){
+    &__header{
+      justify-content: center;
+    }
+    &__title{
+      font-size: 24px;
+      text-align: center;
+    }
+    &__link{
+      display: none;
+    }
   }
 }

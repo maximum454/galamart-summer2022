@@ -28,7 +28,7 @@
   }
   &__title{
     position: absolute;
-    bottom: 40px;
+    bottom: 72px;
     padding: 0 170px 0 20px;
     font-weight: 700;
     font-size: 50px;
@@ -42,7 +42,7 @@
     margin-left: 270px;
     position: relative;
     overflow: hidden;
-    padding-bottom: 60px;
+
 
   }
   &__link{
@@ -74,6 +74,10 @@
     }
   }
   .swiper{
+    padding-bottom: 60px;
+
+  }
+  .swiper-wrapper{
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
   }
   .swiper-button-next,
@@ -109,6 +113,57 @@
     height: 12px;
     &-active{
       background-color: #FD7400;
+    }
+  }
+  @include r(767){
+    margin-bottom: 31px;
+    &.revert{
+      .summer2022-catalog__slider{
+        margin-left: 0;
+        margin-right: 135px;
+      }
+      .summer2022-catalog__img{
+        left: auto;
+        right: 0;
+        max-width: 215px;
+      }
+      .summer2022-catalog__link{
+        right: 0;
+        left: auto;
+      }
+      .summer2022-catalog__title{
+        padding: 0 20px 0 100px;
+      }
+    }
+    &__img{
+      position: absolute;
+      top: 10px;
+      left: 0;
+      height: auto;
+      max-width: 215px;
+    }
+    &__title{
+      position: absolute;
+      bottom: 20px;
+      padding: 0 170px 0 20px;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &__slider{
+      margin-left: 135px;
+
+    }
+    &__link{
+      bottom: 20px;
+      right: auto;
+    }
+    .swiper-button-next,
+    .swiper-button-prev{
+      display: none;
     }
   }
 }

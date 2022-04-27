@@ -1,8 +1,13 @@
 .summer2022-poster{
   margin-bottom: 112px;
   overflow: hidden;
+  position: relative;
+  .swiper{
+    position: relative;
+    padding-bottom: 30px;
+  }
   .swiper-pagination{
-    bottom: 15px;
+    bottom: 6px;
   }
   .swiper-pagination-bullet{
     background-color: #FFDDC0;
@@ -11,5 +16,8 @@
     &-active{
       background-color: #FD7400;
     }
+  }
+  @include r(767){
+    margin-bottom: 38px;
   }
 }
